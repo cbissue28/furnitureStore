@@ -1,0 +1,598 @@
+[
+  {
+    "id": 1,
+    "slug": "dune-couch",
+    "name": "Dune Couch",
+    "image": {
+      "mobile": "./assets/product-yx1-earphones/mobile/image-product.jpg",
+      "tablet": "./assets/product-yx1-earphones/tablet/image-product.jpg",
+      "desktop": "./assets/dune-couch/duneCouchImage.jpg"
+    },
+    "category": "couches",
+    "price": 2500,
+    "description": "A sprawling, low-slung teal sofa like a mid-century conversation pit that has been inverted to protrude from the floor instead of sunken within it. Yards of deep blue cushions come together to form peaks and valleys that resemble the jagged surface of another planet.",
+    "features": "The Dune collection features 4 different modules which are moveable and interchangeable therefore allowing you to create your own unique environment.\nEach module dimensions: 27.5″ x 27.5″ x 19.5″ H",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/dune-couch/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-2.jpg",
+        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-2.jpg",
+        "desktop": "./assets/dune-couch/galleryImage2.jpg"
+      },
+      "third": {
+        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-3.jpg",
+        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-3.jpg",
+        "desktop": "./assets/dune-couch/galleryImage3.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      },
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "copenhagen-couch",
+    "name": "Copenhagen Couch",
+    "image": {
+      "mobile": "./assets/product-xx59-headphones/mobile/image-product.jpg",
+      "tablet": "./assets/product-xx59-headphones/tablet/image-product.jpg",
+      "desktop": "./assets/copenhagen-couch/copenhagenCouchImage.jpg"
+    },
+    "category": "couches",
+    "price": 850,
+    "description": "The couch's design not only adds a modern flair but also ensures durability and stability. Its versatile design effortlessly complements various interior styles, from contemporary to traditional, making it a versatile addition to any home",
+    "features": "A couch with a wooden structure and feather and polyurethane padding. Upholstery in fabric or in leather with San Marco quilting on seat and back.Metal base in Bronze finish.",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-xx59-headphones/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-xx59-headphones/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/copenhagen-couch/galleryImage1.jpg"
+      }
+    
+    },
+    "others": [
+      {
+        "slug": "xx99-mark-two-headphones",
+        "name": "XX99 Mark II",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "shibuya-couch",
+    "name": "Shibuya Couch",
+    "image": {
+      "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-product.jpg",
+      "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-product.jpg",
+      "desktop": "./assets/shibuya-couch/shibuyaCouchImage.jpg"
+    },
+    "category": "couches",
+    "price": 1600,
+    "description": "Crafted with the utmost attention to comfort, the seat and back of each sofa module are constructed from engineered layers of CMHR foam, providing exceptional support and durability. Whether you're lounging with a book, entertaining guests, or simply relaxing after a long day, you can count on the luxurious comfort and reliability of our soft modular sofa range.",
+    "features": "Soft modular sofa range.\nStraight with & without back with corner, arm and integrated table elements. \nLinking system. Black nylon glides. \nSeat and back constructed from engineered layers of CMHR foam. \nDimensions 815mm h 600mm w 730mm d",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/shibuya-couch/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg",
+        "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg",
+        "desktop": "./assets/shibuya-couch/galleryImage2.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "xx99-mark-two-headphones",
+        "name": "XX99 Mark II",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      },
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "mallow-couch",
+    "name": "Mallow Couch",
+    "image": {
+      "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-product.jpg",
+      "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-product.jpg",
+      "desktop": "./assets/mallow-couch/mallowCouchImage.jpg"
+    },
+    "category": "couches",
+    "price": 1300,
+    "description": "Featuring the rich colour-way of Brooklyn Truffle and Brooklyn Beige, this mallow couch is composed of several modular modules, offering endless possibilities for creating unique design experiences. With its clean lines and defined angles, this sofa exudes timeless elegance, combining rich flavour with neutral beauty to elevate the aesthetic of any space.",
+    "features": "Dimensions of this Couch is: \nWidth: 530 cm | 208.66 Depth: 230 cm | 90.55 Height: 72 cm | 28.74",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/mallow-couch/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg",
+        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg",
+        "desktop": "./assets/mallow-couch/galleryImage2.jpg"
+      },
+      "third": {
+        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg",
+        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg",
+        "desktop": "./assets/mallow-couch/galleryImage3.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      },
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "hachimura-lamp",
+    "name": "Hachimura Standing Lamps",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"
+    },
+    "category": "lamps",
+    "price": 135,
+    "description": "Introducing our versatile freestanding lamp collection that comes in three different sizes  to suit your lighting needs. Designed for convenience and flexibility, these lamps are freestanding, allowing you to place them anywhere in your home without the need for installation. The lamps are equipped with a diffusing top made of satin-like PMMA, providing soft and evenly distributed light.",
+    "features": "Three different sized lamps (S, M, L) that each have: \nA stainless steel structure or painted steel lithium. \nAntistatic satin polyester with a Watteau pleat. \nDiffusing top in satin-like PMMA. \nTransparent power cable. \nDimmer available as an option with specific dimmable compact fluorescent bulbs.",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/hachimura-lamp/galleryImage1.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "santiago-lamp",
+    "name": "Santiago Lamp",
+    "image": {
+      "mobile": "./assets/product-zx9-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx9-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/santiago-lamp/santiagoLampImage.jpg"
+    },
+    "category": "lamps",
+    "price": 105,
+    "description": "Introducing our latest decor sensation! Infuse any space with a soft, warm glow using this elegantly minimal desk/table lamp. With its sweeping, curved design and minimalist aesthetic, this season's hottest Santiago lamp, shaped like a mushroom and available in striking orange, is set to elevate any corner of your home.",
+    "features": "Material: High strength Acrylic \n1 x Mushroom Lamp (bulbs included) \nDimensions: 223mm h x 320mm w \nVoltage: 90-260V \nBulb Type: e14 \nLead, switch and plug are clear plastic ",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx9-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx9-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/santiago-lamp/galleryImage1.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx7-speaker",
+        "name": "ZX7 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx7-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx7-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx7-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "brass-lamp",
+    "name": "Brass Lamp",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/brass-lamp/brassLampImage.jpg"
+    },
+    "category": "lamps",
+    "price": 120,
+    "description": "Ian Thornton designed the Brass Table Lamp with its powerful brutalist profile. The cast aluminum lamp has all of the attributes that make foundry pieces so special, such as the drifts of stippling on the metal's surface. The antique brass finish highlights the texture to bring the gold lamp the feel of a vintage piece.",
+    "features": "Dimensions: 29 inches h x 17 inches w. \nStandard Bulb. \n1 way turn knob",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/brass-lamp/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/brass-lamp/galleryImage2.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "wooj-lamp",
+    "name": "Wooj Lamp",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/wooj-lamp/woojLampImage.jpg"
+    },
+    "category": "lamps",
+    "price": 95,
+    "description": "Delicate, almost as though it is carved from opaque glass, but deceptively sturdy. Not only does it represent the future of product production and industrial design, but it looks so good in any space. the Wooj Lamp is sure to be the most commented-on piece in your home and becomes a topic of conversation when a new guest spots it. ",
+    "features": " Dimensions: 11 inches H x 7 inches W x 7 inches D \nMaterials: Recycled corn PLA body and diffuser; durable cloth-covered TPE cord with switch and flat wall plug; raw brass strain \n relief Bulb (included): 6W (40W equivalent),non-dimmable \nWeight: 1.3 lbs",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/wooj-lamp/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/wooj-lamp/galleryImage2.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "stump-table",
+    "name": "Stump Table",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/stump-table/stumpTableImage.jpg"
+    },
+    "category": "tables",
+    "price": 155,
+    "description": "The Stump Table showcases elegant curves and contrasting finishes. Its impressive structure is made from fluted mango wood combined with a smooth natural beige Marble top. An elegant addition to any seating area.",
+    "features": "Dimensions: 70cm w x 50cm d x 40cm h",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/stump-table/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/stump-table/galleryImage2.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "manhattan-table",
+    "name": "Manhattan Table",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/manhattan-table/manhattanTableImage.jpg"
+    },
+    "category": "tables",
+    "price": 135,
+    "description": "Introducing our versatile freestanding lamp collection that comes in three different sizes  to suit your lighting needs. Designed for convenience and flexibility, these lamps are freestanding, allowing you to place them anywhere in your home without the need for installation. The lamps are equipped with a diffusing top made of satin-like PMMA, providing soft and evenly distributed light.",
+    "features": "Dimensions: \n(Smaller Table) W 102 x D 108 x H 35.5 cm \n(Bigger Table) W 147 x D 134 x H 41 cm",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/manhattan-table/galleryImage1.jpg"
+      },
+      "second": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/manhattan-table/galleryImage2.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "deco-table",
+    "name": "Deco Table",
+    "image": {
+      "mobile": "./assets/product-zx7-speaker/mobile/image-product.jpg",
+      "tablet": "./assets/product-zx7-speaker/tablet/image-product.jpg",
+      "desktop": "./assets/deco-table/decoTableImage.jpg"
+    },
+    "category": "tables",
+    "price": 100,
+    "description": "The Deco Table exudes contemporary sophistication with its sleek design created using GRC moulded technology. Finished to the highest standard in an on-trend concrete look, it's perfect for modern interiors, with a matching side table available to complete the ensemble.",
+    "features": "Dimensions: H 30cm x W 75cm x D 75cm",
+    "gallery": {
+      "first": {
+        "mobile": "./assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
+        "tablet": "./assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
+        "desktop": "./assets/deco-table/galleryImage1.jpg"
+      }
+    },
+    "others": [
+      {
+        "slug": "zx9-speaker",
+        "name": "ZX9 Speaker",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
+          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
+          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
+        }
+      },
+      {
+        "slug": "xx99-mark-one-headphones",
+        "name": "XX99 Mark I",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+        }
+      },
+      {
+        "slug": "xx59-headphones",
+        "name": "XX59",
+        "image": {
+          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
+          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
+          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
+        }
+      }
+    ]
+  }
+]
