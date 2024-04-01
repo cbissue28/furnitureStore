@@ -11,7 +11,7 @@
     "category": "couches",
     "price": 2500,
     "description": "A sprawling, low-slung teal sofa like a mid-century conversation pit that has been inverted to protrude from the floor instead of sunken within it. Yards of deep blue cushions come together to form peaks and valleys that resemble the jagged surface of another planet.",
-    "features": "The Dune collection features 4 different modules which are moveable and interchangeable therefore allowing you to create your own unique environment.\nEach module dimensions: 27.5″ x 27.5″ x 19.5″ H",
+    "features": "The Dune collection features 4 different modules which are moveable and interchangeable therefore allowing you to create your own unique environment. Each module has dimensions of: 27.5″ x 27.5″ x 19.5″ H",
     "gallery": {
       "first": {
         "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
@@ -31,31 +31,19 @@
     },
     "others": [
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "santiago-lamp",
+        "name": "Santiago Lamp",
+        "image": {"desktop": "./assets/santiago-lamp/santiagoLampImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "wooj-lamp",
+        "name": "Wooj Lamp",
+        "image": {"desktop": "./assets/wooj-lamp/woojLampImage.jpg"}
       },
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "manhattan-table",
+        "name": "Manhattan Table",
+        "image": {"desktop": "./assets/manhattan-table/manhattanTableImage.jpg"}
       }
     ]
   },
@@ -82,31 +70,19 @@
     },
     "others": [
       {
-        "slug": "xx99-mark-two-headphones",
-        "name": "XX99 Mark II",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-        }
+        "slug": "manhattan-table",
+        "name": "Manhattan Table",
+        "image": {"desktop": "./assets/manhattan-table/manhattanTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "brass-lamp",
+        "name": "Brass Lamp",
+        "image": {"desktop": "./assets/brass-lamp/brassLampImage.jpg"}
       },
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   },
@@ -122,7 +98,7 @@
     "category": "couches",
     "price": 1600,
     "description": "Crafted with the utmost attention to comfort, the seat and back of each sofa module are constructed from engineered layers of CMHR foam, providing exceptional support and durability. Whether you're lounging with a book, entertaining guests, or simply relaxing after a long day, you can count on the luxurious comfort and reliability of our soft modular sofa range.",
-    "features": "Soft modular sofa range.\nStraight with & without back with corner, arm and integrated table elements. \nLinking system. Black nylon glides. \nSeat and back constructed from engineered layers of CMHR foam. \nDimensions 815mm h 600mm w 730mm d",
+    "features": "Soft modular sofa range.\n\nStraight with & without back with corner, arm and integrated table elements. \nLinking system. Black nylon glides. \nSeat and back constructed from engineered layers of CMHR foam. \nDimensions 815mm h 600mm w 730mm d",
     "gallery": {
       "first": {
         "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg",
@@ -137,31 +113,19 @@
     },
     "others": [
       {
-        "slug": "xx99-mark-two-headphones",
-        "name": "XX99 Mark II",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-        }
+        "slug": "santiago-lamp",
+        "name": "Santiago Lamp",
+        "image": {"desktop": "./assets/santiago-lamp/santiagoLampImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "mallow-couch",
+        "name": "Mallow Couch",
+        "image": {"desktop": "./assets/mallow-couch/mallowCouchImage.jpg"}
       }
     ]
   },
@@ -197,31 +161,19 @@
     },
     "others": [
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   },
@@ -247,31 +199,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "wooj-lamp",
+        "name": "Wooj Lamp",
+        "image": {"desktop": "./assets/wooj-lamp/woojLampImage.jpg"}
       }
     ]
   },
@@ -293,35 +233,30 @@
         "mobile": "./assets/product-zx9-speaker/mobile/image-gallery-1.jpg",
         "tablet": "./assets/product-zx9-speaker/tablet/image-gallery-1.jpg",
         "desktop": "./assets/santiago-lamp/galleryImage1.jpg"
+      },
+      "second": {
+        "desktop": "./assets/santiago-lamp/galleryImage1.jpg"
+      },
+      "third": {
+        "desktop": "./assets/santiago-lamp/galleryImage1.jpg"
       }
+      
     },
     "others": [
       {
-        "slug": "zx7-speaker",
-        "name": "ZX7 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx7-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx7-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx7-speaker.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "copenhagen-couch",
+        "name": "Copenhagen Couch",
+        "image": {"desktop": "./assets/copenhagen-couch/copenhagenCouchImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   },
@@ -352,31 +287,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   },
@@ -407,31 +330,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "manhattan-table",
+        "name": "Manhattan Table",
+        "image": {"desktop": "./assets/manhattan-table/manhattanTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "copenhagen-couch",
+        "name": "Copenhagen Couch",
+        "image": {"desktop": "./assets/copenhagen-couch/copenhagenCouchImage.jpg"}
       }
     ]
   },
@@ -462,31 +373,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "shibuya-couch",
+        "name": "Shibuya Couch",
+        "image": {"desktop": "./assets/shibuya-couch/shibuyaCouchImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   },
@@ -517,31 +416,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "deco-table",
+        "name": "Deco Table",
+        "image": {"desktop": "./assets/deco-table/decoTableImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "stump-table",
+        "name": "Stump Table",
+        "image": {"desktop": "./assets/stump-table/stumpTableImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "dune-couch",
+        "name": "Dune Couch",
+        "image": {"desktop": "./assets/dune-couch/duneCouchImage.jpg"}
       }
     ]
   },
@@ -567,31 +454,19 @@
     },
     "others": [
       {
-        "slug": "zx9-speaker",
-        "name": "ZX9 Speaker",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-zx9-speaker.jpg",
-          "tablet": "./assets/shared/tablet/image-zx9-speaker.jpg",
-          "desktop": "./assets/shared/desktop/image-zx9-speaker.jpg"
-        }
+        "slug": "mallow-couch",
+        "name": "Mallow Couch",
+        "image": {"desktop": "./assets/mallow-couch/mallowCouchImage.jpg"}
       },
       {
-        "slug": "xx99-mark-one-headphones",
-        "name": "XX99 Mark I",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-        }
+        "slug": "brass-lamp",
+        "name": "Brass Lamp",
+        "image": {"desktop": "./assets/brass-lamp/brassLampImage.jpg"}
       },
       {
-        "slug": "xx59-headphones",
-        "name": "XX59",
-        "image": {
-          "mobile": "./assets/shared/mobile/image-xx59-headphones.jpg",
-          "tablet": "./assets/shared/tablet/image-xx59-headphones.jpg",
-          "desktop": "./assets/shared/desktop/image-xx59-headphones.jpg"
-        }
+        "slug": "hachimura-lamp",
+        "name": "Hachimura Standing Lamps",
+        "image": {"desktop": "./assets/hachimura-lamp/hachimuraLampImage.jpg"}
       }
     ]
   }

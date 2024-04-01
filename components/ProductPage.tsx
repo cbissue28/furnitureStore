@@ -21,14 +21,14 @@ const ProductPage = ({ product }: Props) => {
         src={product.image?.desktop.replace(".", "") || ""}
         width={500}
         height={500}
-        alt="headphones"
+        alt="item"
         />
         <Box
         sx={{
             display: "flex",
             flexDirection: "column",
             height: "75vh",
-            width: "25vw",
+            width: "35vw",
             justifyContent: "center",
             marginLeft: "8rem"  
         }}> 
@@ -38,7 +38,8 @@ const ProductPage = ({ product }: Props) => {
             fontWeight: 600,
             marginBottom: "2rem",
             textTransform: "uppercase",
-            fontSize: "4.5rem"
+            fontSize: "4.5rem",
+            textAlign: "center"
         }}>
             {product.name}
         </Typography>
