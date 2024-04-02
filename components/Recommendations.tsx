@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { features } from 'process'
 import React from 'react'
 import { Button } from './Button';
+import Link from 'next/link';
 
 interface Props {
     recommendations: any[];
@@ -55,7 +56,7 @@ const Recommendations = ({ recommendations }: Props) => {
                              {product.name}
                             </Typography>
                             <Button variant="contained" color="#d97d45"> 
-                            See product
+                            <Link href={`/${product.slug}`}> See product</Link>
                             </Button>  
                     </Box>
                 );

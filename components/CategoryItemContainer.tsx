@@ -25,7 +25,7 @@ const CategoryItemContainer = ({ item }: Props) => {
           <CategoryItemDescription 
           name={item.name}
           description={item.description}
-          id={item.id}/>
+          slug={item.slug}/>
         
         {item.id % 2 !== 0 ? (
             <CategoryItemImage 

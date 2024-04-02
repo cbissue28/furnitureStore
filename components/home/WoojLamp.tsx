@@ -36,7 +36,7 @@ const WoojLamp = () => {
         out again!
     </Typography>
     <Button variant="outlined" color="white">
-    <Link href="/8">See Product</Link>
+    <Link href="/wooj-lamp">See Product</Link>
     </Button>
    </Box>
    </Box>

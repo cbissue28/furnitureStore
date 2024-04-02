@@ -21,27 +21,34 @@ const ProductGallery = ({ gallery }: Props) => {
             display: "flex",
             flexDirection: "column",
             alignItems: "space-between"
-    }}>
+    }}> 
+           {gallery?.first.desktop && (
             <Image
-            src={gallery?.first.desktop.replace(".", "")}
-            alt="product-image"
-            height={275}
-            width={500}
-            style={{ marginBottom: "3rem" }}
+              src={gallery.first.desktop.replace(".", "")}
+              alt="product-image"
+              height={275}
+              width={500}
+              style={{ marginBottom: "3rem" }}
             />
+          )}
+
+          {gallery?.second?.desktop && (
             <Image
-            src={gallery?.second?.desktop.replace(".", "")}
-            alt="product-image"
-            height={275}
-            width={500}
+              src={gallery.second.desktop.replace(".", "")}
+              alt="product-image"
+              height={275}
+              width={500}
             />
-            </Box>
-            <Image
-            src={gallery?.third?.desktop.replace(".", "")}
+          )}
+        </Box>
+        {gallery?.third?.desktop && (
+          <Image
+            src={gallery.third.desktop.replace(".", "")}
             alt="product-image"
             height={600}
             width={600}
-            />
+          />
+        )}
         </Box>
     </Container>
   )

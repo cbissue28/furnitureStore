@@ -39,7 +39,7 @@ const MallowCouch = () => {
         room.
     </Typography>
     <Button variant="contained" color="#c97b53" sx={{ marginBottom: "2rem" }}>
-    <Link href="/4">See Product</Link>
+    <Link href="/mallow-couch">See Product</Link>
     </Button>
     </Box>
    </Box>

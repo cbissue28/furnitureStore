@@ -6,10 +6,10 @@ import { Button } from './Button';
 interface Props {
     name: string;
     description: string;
-    id: string | number;
+    slug: string;
 }
 
-const CategoryItemDescription = ({name,description,id}: Props) => {
+const CategoryItemDescription = ({ name, description, slug }: Props) => {
   return (
     <Box
     sx={{
@@ -33,7 +33,7 @@ const CategoryItemDescription = ({name,description,id}: Props) => {
          {description}
      </Typography>
      <Button variant="contained" color="#d97d45">
-      <Link href={`/${id}`}>See Product</Link>
+      <Link href={`/${slug}`}>See Product</Link>
      </Button>
     </Box>
    );

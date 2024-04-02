@@ -37,7 +37,7 @@ const Hero = () => {
         living space.
     </Typography>
     <Button variant="contained" color="#c97b53">
-     <Link href="/3">See Product</Link>
+     <Link href="/shibuya-couch">See Product</Link>
     </Button>
    </Box>
   );

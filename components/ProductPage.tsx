@@ -72,8 +72,7 @@ const ProductPage = ({ product }: Props) => {
                 id: product.id,
                 name: product.name,
                 price: product.price,
-                itemCount: count,
-                image: product.image.mobile.replace(".", ""),
+                image: product.image.desktop.replace(".", ""),
                 count: count,
                 })
                 );

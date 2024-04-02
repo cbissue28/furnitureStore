@@ -11,7 +11,7 @@ import Recommendations from '../components/Recommendations';
 
 const productDetails = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { slug } = router.query;
   
   const [data, setData] = useState([{ id: "0" }]);
   const [isLoading, setLoading] = useState(true);
@@ -22,7 +22,8 @@ const productDetails = () => {
       first: { desktop: "" },
       second: { desktop: "" },
       third: { desktop: "" },
-    }
+    },
+    others: [],
   })
 
 
@@ -33,12 +34,12 @@ const productDetails = () => {
       setData(response)
         setLoading(false);
         response.map((item: any) => {
-          if (item.id.toString() === id) {
+          if (item.slug === slug) {
             setProduct(item);
           }
         });
     });
-  }, [id]);
+  }, [slug]);
 
   if (isLoading) {
     return <p>Loading...</p>;

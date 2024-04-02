@@ -41,7 +41,12 @@ const Cart = () => {
     </Box>
     {cart.map((product) => { 
     return (
-       <Box key={product.id} sx={{ display: "flex", marginLeft: "1rem 0", justifyContent: 'space-between' }}>
+       <Box 
+       key={product.id} 
+       sx={{ 
+        display: "flex", 
+        marginLeft: "1rem 0", 
+        justifyContent: 'space-between' }}>
         <Box sx={{ display: "flex" }}>
          <Image
            src={product.image}
