@@ -19,7 +19,7 @@ const ProductPage = ({ product }: Props) => {
     >
         <Image
         src={product.image?.desktop.replace(".", "") || ""}
-        width={500}
+        width={550}
         height={500}
         alt="item"
         />

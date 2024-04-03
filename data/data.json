@@ -72,7 +72,7 @@
     "category": "couches",
     "price": 1600,
     "description": "Crafted with the utmost attention to comfort, the seat and back of each sofa module are constructed from engineered layers of CMHR foam, providing exceptional support and durability. Whether you're lounging with a book, entertaining guests, or simply relaxing after a long day, you can count on the luxurious comfort and reliability of our soft modular sofa range.",
-    "features": "Soft modular sofa range.\n\nStraight with & without back with corner, arm and integrated table elements. \nLinking system. Black nylon glides. \nSeat and back constructed from engineered layers of CMHR foam. \nDimensions 815mm h 600mm w 730mm d",
+    "features": "- Soft modular sofa range.\n- Straight with & without back with corner, arm and integrated table elements. \n- Linking system. Black nylon glides. \n- Seat and back constructed from engineered layers of CMHR foam. \n- Dimensions: 815mm h 600mm w 730mm d",
     "gallery": {
       "first": {"desktop": "./assets/shibuya-couch/galleryImage1.jpg"},
       "second": {"desktop": "./assets/shibuya-couch/galleryImage2.jpg"},
@@ -104,7 +104,7 @@
     "category": "couches",
     "price": 1300,
     "description": "Featuring the rich colour-way of Brooklyn Truffle and Brooklyn Beige, this mallow couch is composed of several modular modules, offering endless possibilities for creating unique design experiences. With its clean lines and defined angles, this sofa exudes timeless elegance, combining rich flavour with neutral beauty to elevate the aesthetic of any space.",
-    "features": "Dimensions of this Couch is: \nWidth: 530 cm | 208.66 Depth: 230 cm | 90.55 Height: 72 cm | 28.74",
+    "features": "Dimensions of this Couch is: \nWidth: 530 cm | 208.66 Depth: 230 cm | 90.55 Height: 72 cm",
     "gallery": {
       "first": {"desktop": "./assets/mallow-couch/galleryImage1.jpg"},
       "second": {"desktop": "./assets/mallow-couch/galleryImage2.jpg"},
@@ -136,7 +136,7 @@
     "category": "lamps",
     "price": 135,
     "description": "Introducing our versatile freestanding lamp collection that comes in three different sizes  to suit your lighting needs. Designed for convenience and flexibility, these lamps are freestanding, allowing you to place them anywhere in your home without the need for installation. The lamps are equipped with a diffusing top made of satin-like PMMA, providing soft and evenly distributed light.",
-    "features": "Three different sized lamps (S, M, L) that each have: \nA stainless steel structure or painted steel lithium. \nAntistatic satin polyester with a Watteau pleat. \nDiffusing top in satin-like PMMA. \nTransparent power cable. \nDimmer available as an option with specific dimmable compact fluorescent bulbs.",
+    "features": "Three different sized lamps (S, M, L) that each have: \n- A stainless steel structure or painted steel lithium. \n- Antistatic satin polyester with a Watteau pleat. \n- Diffusing top in satin-like PMMA. \n- Transparent power cable. \n- Dimmer available as an option with specific dimmable compact fluorescent bulbs.",
     "gallery": {
       "first": {"desktop": "./assets/hachimura-lamp/galleryImage1.jpg"},
       "second": {"desktop": null},
@@ -168,7 +168,7 @@
     "category": "lamps",
     "price": 105,
     "description": "Introducing our latest decor sensation! Infuse any space with a soft, warm glow using this elegantly minimal desk/table lamp. With its sweeping, curved design and minimalist aesthetic, this season's hottest Santiago lamp, shaped like a mushroom and available in striking orange, is set to elevate any corner of your home.",
-    "features": "Material: High strength Acrylic \n1 x Mushroom Lamp (bulbs included) \nDimensions: 223mm h x 320mm w \nVoltage: 90-260V \nBulb Type: e14 \nLead, switch and plug are clear plastic ",
+    "features": "- Material: High strength Acrylic \n- 1 x Mushroom Lamp (bulbs included) \n- Dimensions: 223mm h x 320mm w \n- Voltage: 90-260V \n- Bulb Type: e14 \n- Lead, switch and plug are clear plastic ",
     "gallery": {
       "first": {"desktop": "./assets/santiago-lamp/galleryImage1.jpg"},
       "second": {"desktop": null},
@@ -201,7 +201,7 @@
     "category": "lamps",
     "price": 120,
     "description": "Ian Thornton designed the Brass Table Lamp with its powerful brutalist profile. The cast aluminum lamp has all of the attributes that make foundry pieces so special, such as the drifts of stippling on the metal's surface. The antique brass finish highlights the texture to bring the gold lamp the feel of a vintage piece.",
-    "features": "Dimensions: 29 inches h x 17 inches w. \nStandard Bulb. \n1 way turn knob",
+    "features": "- Dimensions: 29 inches h x 17 inches w. \n- Standard Bulb. \n- 1 way turn knob",
     "gallery": {
       "first": {"desktop": "./assets/brass-lamp/galleryImage1.jpg"},
       "second": {"desktop": "./assets/brass-lamp/galleryImage2.jpg"},
@@ -233,7 +233,7 @@
     "category": "lamps",
     "price": 95,
     "description": "Delicate, almost as though it is carved from opaque glass, but deceptively sturdy. Not only does it represent the future of product production and industrial design, but it looks so good in any space. the Wooj Lamp is sure to be the most commented-on piece in your home and becomes a topic of conversation when a new guest spots it. ",
-    "features": " Dimensions: 11 inches H x 7 inches W x 7 inches D \nMaterials: Recycled corn PLA body and diffuser; durable cloth-covered TPE cord with switch and flat wall plug; raw brass strain \n relief Bulb (included): 6W (40W equivalent),non-dimmable \nWeight: 1.3 lbs",
+    "features": "- Dimensions: 11 inches H x 7 inches W x 7 inches D \n- Materials: Recycled corn PLA body and diffuser; durable cloth-covered TPE cord with switch and flat wall plug; raw brass strain \n- relief Bulb (included): 6W (40W equivalent),non-dimmable \n- Weight: 1.3 lbs",
     "gallery": {
       "first": {"desktop": "./assets/wooj-lamp/galleryImage1.jpg"},
       "second": {"desktop": "./assets/wooj-lamp/galleryImage2.jpg"},
@@ -297,7 +297,7 @@
     "category": "tables",
     "price": 135,
     "description": "Introducing our versatile freestanding lamp collection that comes in three different sizes  to suit your lighting needs. Designed for convenience and flexibility, these lamps are freestanding, allowing you to place them anywhere in your home without the need for installation. The lamps are equipped with a diffusing top made of satin-like PMMA, providing soft and evenly distributed light.",
-    "features": "Dimensions: \n(Smaller Table) W 102 x D 108 x H 35.5 cm \n(Bigger Table) W 147 x D 134 x H 41 cm",
+    "features": "Dimensions: \n- (Smaller Table) W 102 x D 108 x H 35.5 cm \n- (Bigger Table) W 147 x D 134 x H 41 cm",
     "gallery": {
       "first": {"desktop": "./assets/manhattan-table/galleryImage1.jpg"},
       "second": {"desktop": "./assets/manhattan-table/galleryImage2.jpg"},

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Nav from '../components/Nav'
-import { Box, Container, Typography } from '@mui/material'
+import { Box, Container } from '@mui/material'
 import Footer from '../components/Footer'
 import Summary from '../components/Summary'
 import PaymentForm from '../components/PaymentForm'

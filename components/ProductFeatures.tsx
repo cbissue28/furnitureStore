@@ -12,7 +12,7 @@ const ProductFeatures = ({ features }: Props) => {
             display: "flex",
             flexDirection: "column",
             alignItems: "space-between",
-            maxWidth: "45%",
+            maxWidth: "50%",
             marginBottom: "2.5rem"
         }}>
             <Typography variant="h3"
@@ -23,7 +23,8 @@ const ProductFeatures = ({ features }: Props) => {
                 marginBottom: "2rem"
             }}>Features
             </Typography>
-            <Typography>{features}</Typography>
+            <Typography sx={{ whiteSpace: 'pre-line' }}>{features}</Typography>
+            
         </Box>
     </Container>
   )

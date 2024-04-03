@@ -12,6 +12,8 @@ interface Props {
 const Nav = ({ color }: Props) => {
   const [showCart, setShowCart] = useState(false)
   const { cart } = useAppSelector((state) => state.cart);
+
+  
   return (
     //Display: flex alligns items in the menu horizontally
     <div style={{
