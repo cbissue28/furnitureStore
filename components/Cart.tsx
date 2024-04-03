@@ -4,6 +4,7 @@ import { Button } from './Button'
 import Image from 'next/image'
 import { useAppDispatch, useAppSelector } from '../store/hook'
 import { clearCart } from '../store/cartSlice'
+import Link from 'next/link'
 
 const Cart = () => {
     const { cart } = useAppSelector((state) => state.cart);
@@ -60,22 +61,22 @@ const Cart = () => {
           marginLeft: "1rem", 
           }}>
            <Typography variant="body1">{product.name}</Typography>
-           <Typography variant="body2">{product.price}</Typography>
+           <Typography variant="body2">£{product.price}</Typography>
           </Box>
          </Box>
-         <Typography variant="body1" sx={{ fontWeight: 800 }}>{product.count}</Typography>
+         <Typography variant="body1" sx={{ fontWeight: 600, color: "gray" }}>{product.count}</Typography>
          </Box>       
      )
      })}
     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-        <Typography>Total</Typography>
+        <Typography sx={{ marginTop: "0.5rem" }}>Total</Typography>
         <Typography>£££</Typography>
     </Box>
     <Button 
     color="#d97d45" 
     variant="contained" 
     sx={{ width: "100%", marginTop: "1rem" }}>
-        Checkout
+        <Link href="/checkout">Checkout</Link>
     </Button>
     </Box>
     </Box>

@@ -1,6 +1,5 @@
 import { Container, Box, Typography } from '@mui/material'
 import Image from 'next/image';
-import { features } from 'process'
 import React from 'react'
 import { Button } from './Button';
 import Link from 'next/link';

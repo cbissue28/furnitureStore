@@ -1,13 +1,8 @@
-import { Box, Container } from '@mui/material'
 import { NextPage } from 'next'
 import React, { useEffect, useState } from 'react'
-import { CategoryCardContainer } from '../components/CategoryCardContainer'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
-import About from '../components/home/About'
 import CategoryHeader from '../components/CategoryHeader'
-import CategoryItemImage from '../components/CategoryItemImage'
-import CategoryItemDescription from '../components/CategoryItemDescription'
 import CategoryItemContainer from '../components/CategoryItemContainer'
 
 const Couches: NextPage = () => {
