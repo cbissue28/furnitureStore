@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Button as MUIButton } from '@mui/material'
+import { Box, Container, Typography, Button as MuiButton } from '@mui/material'
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { Button } from './Button'
@@ -59,9 +59,9 @@ const ProductPage = ({ product }: Props) => {
         marginRight: "0.5rem"
         }}
         >
-        <MUIButton onClick={() => setCount(count - 1)}>-</MUIButton>
+        <MuiButton onClick={() => setCount(count - 1)}>-</MuiButton>
         {count}
-        <MUIButton onClick={() => setCount(count + 1)}>+</MUIButton>
+        <MuiButton onClick={() => setCount(count + 1)}>+</MuiButton>
          </Box>
             <Button 
             variant="contained" 

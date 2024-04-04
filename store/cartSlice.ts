@@ -22,13 +22,16 @@ export const cartSlice = createSlice({
     addToCart: (state, action: PayloadAction<cartItem>) => {
       state.cart.push(action.payload);
     },
+    removeFromCart: (state, action: PayloadAction<number>) => {
+      state.cart = state.cart.filter(item => item.id !== action.payload);
+    },
     clearCart: (state) => {
       state.cart = [];
     }
   },
 });
 
-export const { addToCart, clearCart } = cartSlice.actions;
+export const { addToCart, removeFromCart, clearCart } = cartSlice.actions;
 
 // Other code such as selectors can use the imported `RootState` type
 export const selectCart = (state: RootState) => state.cart.cart;

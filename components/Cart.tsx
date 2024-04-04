@@ -1,9 +1,9 @@
-import { Box, Typography, Button as MUIButton } from '@mui/material';
+import { Box, Typography, Button as MuiButton } from '@mui/material';
 import React, { useState } from 'react';
 import { Button } from './Button';
 import Image from 'next/image';
 import { useAppDispatch, useAppSelector } from '../store/hook';
-import { clearCart } from '../store/cartSlice';
+import { clearCart, removeFromCart } from '../store/cartSlice';
 import Link from 'next/link';
 
 const Cart = () => {
@@ -15,6 +15,9 @@ const Cart = () => {
     const handleBackgroundClick = () => {
         setShowCart(false); // Set showCart to false when the background is clicked
     };
+
+    const handleRemoveFromCart = (productId: number) => {
+        dispatch(removeFromCart(productId))}; // Dispatch action to remove the product from the cart
 
     return (
         <React.Fragment>
@@ -49,7 +52,7 @@ const Cart = () => {
                     >
                         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                             <Typography>Cart</Typography>
-                            <MUIButton onClick={() => dispatch(clearCart())}>Remove All</MUIButton>
+                            <MuiButton onClick={() => dispatch(clearCart())}>Remove All</MuiButton>
                         </Box>
                         {cart.map((product) => {
                             return (
@@ -63,6 +66,15 @@ const Cart = () => {
                                     }}
                                 >
                                     <Box sx={{ display: "flex" }}>
+                                    <Image 
+                                    src="/assets/shared/desktop/icon-cancel.svg" 
+                                    alt="apple pay icon"
+                                    width={15}
+                                    height={10}
+                                    style={{ 
+                                        marginTop: "1.5rem",
+                                        marginRight: "0.5rem" }}
+                                    onClick={() => handleRemoveFromCart(product.id)}/>
                                         <Image
                                             src={product.image}
                                             width={50}

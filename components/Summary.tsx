@@ -1,13 +1,18 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
 import { Button } from './Button'
-import { useAppSelector } from '../store/hook';
+import { useAppDispatch, useAppSelector } from '../store/hook';
 import Image from 'next/image';
+import { removeFromCart } from '../store/cartSlice';
 
 
 const Summary = () => {
 const { cart } = useAppSelector((state) => state.cart);
+const dispatch = useAppDispatch();
 const total = cart.reduce((acc, product) => acc + (product.price * product.count), 0);
+const handleRemoveFromCart = (productId: number) => {
+    dispatch(removeFromCart(productId))}; // Dispatch action to remove the product from the cart
+
   return (
     <Box sx={{ display: "flex", flexDirection: "column", width: "25%" }}> 
     <Box sx={{ 
@@ -86,14 +91,15 @@ const total = cart.reduce((acc, product) => acc + (product.price * product.count
                 width: "100%"
              }}>Confirm and Pay</Button>
              </Box>
-             <Box sx={{ 
-        backgroundColor: "white",
-        padding: "2rem",
-        marginTop: "-3.5rem",
-        marginLeft: "2rem",
-        width: "100%"}}>
          {cart.map((product) => { 
     return (
+        <Box sx={{ 
+            backgroundColor: "white",
+            padding: "2rem",
+            marginTop: "-3.5rem",
+            marginLeft: "2rem",
+            width: "100%",
+            height: "10%" }}>
        <Box 
        key={product.id} 
        sx={{ 
@@ -102,6 +108,15 @@ const total = cart.reduce((acc, product) => acc + (product.price * product.count
         marginBottom: "0.3rem",
         justifyContent: 'space-between' }}>
         <Box sx={{ display: "flex" }}>
+        <Image 
+            src="/assets/shared/desktop/icon-cancel.svg" 
+            alt="apple pay icon"
+            width={15}
+            height={10}
+            style={{ 
+                marginTop: "1.5rem",
+                marginRight: "0.5rem" }}
+            onClick={() => handleRemoveFromCart(product.id)}/>
          <Image
            src={product.image}
            width={50}
@@ -118,10 +133,11 @@ const total = cart.reduce((acc, product) => acc + (product.price * product.count
           </Box>
          </Box>
          <Typography variant="body1" sx={{ fontWeight: 600, color: "gray" }}>{product.count}</Typography>
-         </Box>       
+         </Box>
+         </Box>    
      )
      })}    
-             </Box>
+             
             </Box>
 
   )

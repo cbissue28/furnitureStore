@@ -1,4 +1,5 @@
 import { Box, FormControlLabel, Radio, TextField, Typography } from '@mui/material'
+import Image from 'next/image'
 import React from 'react'
 
 const PaymentForm = () => {
@@ -158,20 +159,44 @@ const PaymentForm = () => {
         flexDirection: "column",
         marginBottom: "2rem" 
         }}>
+            <Box> 
             <FormControlLabel
             value="paypal"
             control={<Radio />}
             label="Paypal"
             />
+            <Image 
+            src="/assets/shared/desktop/icon-paypal.svg" 
+            alt="paypal icon"
+            width={15}
+            height={10}
+            style={{ transform: "scale(6)", marginLeft: "1.5rem" }}/>
+            </Box>
+            <Box> 
             <FormControlLabel
             value="klarna"
             control={<Radio />}
             label="Klarna"
             />
+            <Image 
+            src="/assets/shared/desktop/icon-klarna.svg" 
+            alt="klarna icon"
+            width={15}
+            height={10}
+            style={{ transform: "scale(4)", marginLeft: "1.5rem" }}/>
+            </Box>
+            <Box> 
             <FormControlLabel
             value="applePay"
             control={<Radio />}
             label="Apple Pay"/>
+            <Image 
+            src="/assets/shared/desktop/icon-apple-pay.svg" 
+            alt="apple pay icon"
+            width={15}
+            height={10}
+            style={{ transform: "scale(4)", marginLeft: "1.5rem" }}/>
+            </Box>
         </Box>
         <Box sx={{ 
             display: "flex", 
@@ -186,7 +211,7 @@ const PaymentForm = () => {
             id="cardNumber"
             label="Card Number"
             variant="outlined"
-            sx={{ width: "20rem" }}
+            sx={{ width: "20rem", marginTop: "1.5rem" }}
             />
             <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Typography sx={{ fontSize: "1rem"}}>Expiration Date</Typography>
