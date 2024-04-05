@@ -6,6 +6,7 @@ interface Props {
   name: string;
 }
 
+// Returns image of product for category item container.
 const CategoryItemImage = ({ src, name }: Props) => {
   return <Image src={src} alt={name} width={500} height={500} />
 }

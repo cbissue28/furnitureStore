@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import Nav from '../components/Nav'
 import { Box } from '@mui/material'
-import ProductPage from '../components/ProductPage'
 import { useRouter } from 'next/router';
 import Footer from '../components/Footer';
 import ProductFeatures from '../components/ProductFeatures';
 import ProductGallery from '../components/ProductGallery';
 import Recommendations from '../components/Recommendations';
+import ProductDetails from '../components/ProductDetails';
 
-
-const productDetails = () => {
+// Renders the details of a specific product including its features, gallery, and recommendations.
+const productPage = () => {
   const router = useRouter();
   const { slug } = router.query;
   
@@ -26,7 +26,7 @@ const productDetails = () => {
     others: [],
   })
 
-
+  // Fetch product data from API based on slug
   useEffect(() => {
     fetch("/api/data")
     .then((res) => res.json())
@@ -41,14 +41,16 @@ const productDetails = () => {
     });
   }, [slug]);
 
+  // Render loading message while fetching data
   if (isLoading) {
     return <p>Loading...</p>;
   }
 
+  // Renders product page
   return (
     <Box>
         <Nav color="#d48b5f" />
-        <ProductPage product={product} />
+        <ProductDetails product={product} />
         <ProductFeatures features={product.features} />
         <ProductGallery gallery={product.gallery} />
         <Recommendations recommendations={product.others} />
@@ -57,4 +59,4 @@ const productDetails = () => {
   );
 };
 
-export default productDetails;
+export default productPage;

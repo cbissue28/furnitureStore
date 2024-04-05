@@ -4,9 +4,10 @@ import CategoryItemDescription from './CategoryItemDescription'
 import CategoryItemImage from './CategoryItemImage'
 
 interface Props {
-    item: any;
+    item: any; // The individual product.
 }
 
+// Displays all products on the category page. 
 const CategoryItemContainer = ({ item }: Props) => {
   return (
     <Container>
@@ -16,6 +17,7 @@ const CategoryItemContainer = ({ item }: Props) => {
         alignItems: "center",
         justifyContent: "space-between"
     }}>
+        {/* Displays each product with a different layout (either image or description first) */}
         {item.id % 2 === 0 ? (
             <CategoryItemImage 
           src={item.image.desktop.replace(".", "")} 

@@ -1,15 +1,11 @@
-import { Box, Container } from '@mui/material'
 import { NextPage } from 'next'
 import React, { useEffect, useState } from 'react'
-import { CategoryCardContainer } from '../components/CategoryCardContainer'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
-import About from '../components/home/About'
 import CategoryHeader from '../components/CategoryHeader'
-import CategoryItemImage from '../components/CategoryItemImage'
-import CategoryItemDescription from '../components/CategoryItemDescription'
 import CategoryItemContainer from '../components/CategoryItemContainer'
 
+// Fetches data for the lamps category from API and renders the category header and products.
 const Lamps: NextPage = () => {
   const category = "lamps";
   const [data, setData] = useState<any>([]);

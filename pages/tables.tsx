@@ -5,6 +5,7 @@ import CategoryItemContainer from '../components/CategoryItemContainer';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 
+// Fetches data for the tables category from API and renders the category header and products.
 const Tables: NextPage = () => {
     const category = "tables";
     const [data, setData] = useState<any>([]);

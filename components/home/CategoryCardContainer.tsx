@@ -2,6 +2,7 @@ import { Box, Container } from '@mui/material'
 import React from 'react'
 import CategoryCard from './CategoryCard'
 
+// Returns the different category cards by passing the categories through as props.
 export const CategoryCardContainer = () => {
   return (
     <Box sx={{ margin: "4rem 0" }}>
@@ -10,6 +11,6 @@ export const CategoryCardContainer = () => {
       <CategoryCard category="lamps" />
       <CategoryCard category="tables" />
       </Container>
-      </Box>
+    </Box>
   )
 }

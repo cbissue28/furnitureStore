@@ -9,6 +9,7 @@ interface Props {
         third: { desktop: string }}; 
 }
 
+// Returns gallery photos of products and handles null values
 const ProductGallery = ({ gallery }: Props) => {
   return (
     <Container>

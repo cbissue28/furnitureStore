@@ -2,12 +2,13 @@ import type { NextPage } from 'next'
 import Nav from '../components/Nav'
 import { Container } from '@mui/material'
 import Hero from '../components/Hero'
-import { CategoryCardContainer } from '../components/CategoryCardContainer'
+import { CategoryCardContainer } from '../components/home/CategoryCardContainer'
 import MallowCouch from '../components/home/MallowCouch'
 import WoojLamp from '../components/home/WoojLamp'
 import About from '../components/home/About'
 import Footer from '../components/Footer'
 
+// Renders Homepage
 const Home: NextPage = () => {
   return (
     <div> 
@@ -15,7 +16,6 @@ const Home: NextPage = () => {
     height: "96vh",
     backgroundSize: "100%",
     color: "white" }}>
-
       <Container>
       <Nav color="transparent" />
       <Hero />
@@ -26,7 +26,6 @@ const Home: NextPage = () => {
     <WoojLamp />
     <About />
     <Footer />
-
     </div>
   )
 }

@@ -4,11 +4,12 @@ import React from 'react'
 import { Button } from './Button';
 
 interface Props {
-    name: string;
-    description: string;
-    slug: string;
+    name: string; // Name of product.
+    description: string; //Description of product.
+    slug: string; // Slug of product.
 }
 
+// Returns description of product 
 const CategoryItemDescription = ({ name, description, slug }: Props) => {
   return (
     <Box

@@ -26,6 +26,7 @@ const MyApp: React.FunctionComponent<MyAppProps> = (props) => {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
   return (
+    // Provide Redux store to all components using the Provider
     <Provider store={store}> 
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={lightTheme}>

@@ -8,6 +8,7 @@ interface Props {
     recommendations: any[];
 }
 
+// Returns recomendations container for product page
 const Recommendations = ({ recommendations }: Props) => {
   return (
     <Container>

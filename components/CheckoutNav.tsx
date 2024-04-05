@@ -3,15 +3,13 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
 
-
-
 interface Props {
   color: string;
 }
 
+// Navbar for checkout page.
 const CheckoutNav = ({ color }: Props) => {
   return (
-    //Display: flex alligns items in the menu horizontally
     <div style={{
     padding: "2rem 0", 
     color: "white",

@@ -6,16 +6,17 @@ import Cart from './Cart';
 import { useAppSelector } from '../store/hook';
 
 interface Props {
-  color: string;
+  color: string; // Desired colour of nav.
 }
 
 const Nav = ({ color }: Props) => {
-  const [showCart, setShowCart] = useState(false)
+  // Retrieve the cart state from the Redux store
   const { cart } = useAppSelector((state) => state.cart);
-
   
+  // State to manage whether the cart is currently visible or hidden
+  const [showCart, setShowCart] = useState(false)
+
   return (
-    //Display: flex alligns items in the menu horizontally
     <div style={{
     padding: "2rem 0", 
     color: "white",
@@ -43,6 +44,8 @@ const Nav = ({ color }: Props) => {
           <Link href="/tables" style={{ marginRight: "2rem", fontWeight: 700 }}>
           Tables</Link>
       </ul>
+
+      {/* Button to display cart */}
       <Button onClick={() => setShowCart(!showCart)}>
       <Image
       src="./assets/shared/desktop/icon-cart.svg"
@@ -53,6 +56,8 @@ const Nav = ({ color }: Props) => {
       <Typography sx={{ marginLeft: "0.5rem", color: "white" }}>({cart.length})</Typography>
       </Button>
       </Container>
+      
+      {/* If showCart state is true the Cart component will be displayed */}
       {showCart ? <Cart /> : null}
     </div>
   );

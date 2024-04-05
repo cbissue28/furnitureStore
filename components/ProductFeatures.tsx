@@ -5,6 +5,7 @@ interface Props {
     features: string;
   }
 
+// Returns features of a product
 const ProductFeatures = ({ features }: Props) => {
   return (
     <Container>
