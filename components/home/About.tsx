@@ -28,11 +28,11 @@ const About = () => {
           fontSize: "1rem",
           marginBottom: "3rem"}}>
        Home Improvement was established in 2021 with a vision to enhance the quality of living spaces. 
-       Our founder recognised the impact of a persons living environment on their mental well-being, 
-       particularly during the pandemic lockdowns. The company's ethos revolves around empowering individuals, 
-       especially young professionals, to customise their living spaces to reflect their desired emotions, 
-       whether they are unwinding after work or working remotely. We pride ourselves on staying at the forefront of the industry by offering modern, 
-       innovative furniture that includes some of the most unique pieces available.
+            Our founder recognised the impact of a person&apos;s living environment on their mental well-being, 
+            particularly during the pandemic lockdowns. The company&apos;s ethos revolves around empowering individuals, 
+            especially young professionals, to customise their living spaces to reflect their desired emotions, 
+            whether they are unwinding after work or working remotely. We pride ourselves on staying at the forefront of the industry by offering modern, 
+            innovative furniture that includes some of the most unique pieces available.
         </Typography>
       </Box>
       

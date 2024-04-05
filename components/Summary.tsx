@@ -111,7 +111,9 @@ return (
          {/* displays all products in the cart */}
          {cart.map((product) => {
             return (
-            <Box sx={{ 
+            <Box 
+            key={product.id}
+            sx={{   
                 backgroundColor: "white",
                 padding: "2rem",
                 marginTop: "-3.5rem",
