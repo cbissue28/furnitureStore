@@ -1,19 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import type { RootState } from './store'
-
-// Define the structure of an item in the cart
-interface cartItem {
-  id: number; 
-  image: string; 
-  name: string; 
-  count: number; 
-  price: number
-}
+import { ProductType } from '../types';
 
 // Define a type for the slice state
 interface CartState {
-  cart: cartItem[] | any[];
+  cart: ProductType[];
 }
 
 // Define the initial state using that type
@@ -27,7 +19,7 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
     // Add an item to the cart
-    addToCart: (state, action: PayloadAction<cartItem>) => {
+    addToCart: (state, action: PayloadAction<ProductType>) => {
       state.cart.push(action.payload);
     },
     // Remove an item from the cart by its ID

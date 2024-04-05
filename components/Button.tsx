@@ -1,3 +1,4 @@
+import { SxProps, Theme } from '@mui/material';
 import MuiButton from '@mui/material/Button';
 import React from 'react'
 
@@ -5,7 +6,7 @@ interface Props {
     color: string; // The color of the button background or border.
     variant: "text" | "outlined" | "contained"; // The design of the button
     children: React.ReactNode; // The content to display inside the button.
-    sx?: any; // Additional styles to apply to the button
+    sx?: SxProps<Theme>; // Additional styles to apply to the button
     onClick?: () => void; // Optional click event handler function.
 }
 // Returns the desired button using Props.

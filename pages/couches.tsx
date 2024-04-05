@@ -4,11 +4,12 @@ import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import CategoryHeader from '../components/CategoryHeader'
 import CategoryItemContainer from '../components/CategoryItemContainer'
+import { APIProduct } from '../types'
 
 // Fetches data for the couches category from API and renders the category header and products.
 const Couches: NextPage = () => {
   const category = "couches";
-  const [data, setData] = useState<any>([]);
+  const [data, setData] = useState<APIProduct[]>([]);
   const [isLoading, setLoading] = useState(true);
   const products = Array.from(new Set(data));
 
@@ -18,7 +19,7 @@ const Couches: NextPage = () => {
     .then((res) => res.json())
     .then((response) => {
         setLoading(false);
-        response.map((item: any) => {
+        response.map((item: APIProduct) => {
           if (item.category === category) {
             // Add fetched item to the beginning of the data array
             data.unshift(item);
@@ -38,7 +39,7 @@ const Couches: NextPage = () => {
     <CategoryHeader category={category} />
     
     {/* Render individual product items */}  
-    {products.map((item: any) => {
+    {products.map((item) => {
       return <CategoryItemContainer item={item} key={item.id}/>
     })}
     <Footer />

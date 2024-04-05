@@ -4,11 +4,12 @@ import CategoryHeader from '../components/CategoryHeader';
 import CategoryItemContainer from '../components/CategoryItemContainer';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
+import { APIProduct } from '../types';
 
 // Fetches data for the tables category from API and renders the category header and products.
 const Tables: NextPage = () => {
     const category = "tables";
-    const [data, setData] = useState<any>([]);
+    const [data, setData] = useState<APIProduct[]>([]);
     const [isLoading, setLoading] = useState(true);
     const products = Array.from(new Set(data));
   
@@ -17,7 +18,7 @@ const Tables: NextPage = () => {
       .then((res) => res.json())
       .then((response) => {
           setLoading(false);
-          response.map((item: any) => {
+          response.map((item: APIProduct) => {
             if (item.category === category) {
               data.unshift(item);
             }
@@ -35,7 +36,7 @@ const Tables: NextPage = () => {
         <Nav color="#d48b5f" /> 
       <CategoryHeader category={category} />
   
-      {products.map((item: any) => {
+      {products.map((item) => {
         return <CategoryItemContainer item={item} key={item.id}/>
       })}
       <Footer />

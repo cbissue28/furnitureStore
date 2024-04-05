@@ -7,24 +7,48 @@ import ProductFeatures from '../components/ProductFeatures';
 import ProductGallery from '../components/ProductGallery';
 import Recommendations from '../components/Recommendations';
 import ProductDetails from '../components/ProductDetails';
+import { APIProduct } from '../types';
 
 // Renders the details of a specific product including its features, gallery, and recommendations.
 const ProductPage = () => {
   const router = useRouter();
   const { slug } = router.query;
   
-  const [data, setData] = useState([{ id: "0" }]);
+  const [data, setData] = useState<APIProduct[]>([]);
   const [isLoading, setLoading] = useState(true);
-  const [product, setProduct] = useState({ 
-    id: "0",
-    features: "",
-    gallery: { 
-      first: { desktop: "" },
-      second: { desktop: "" },
-      third: { desktop: "" },
+  const [product, setProduct] = useState<APIProduct>({
+    id: 0,
+    slug:"",
+    name:"",
+    image: {desktop:""},
+    category:"",
+    price: 0,
+    description:"",
+    features:"",
+    gallery: {
+      first: {desktop:""},
+      second: {desktop:""},
+      third: {desktop:""}
     },
-    others: [],
-  })
+    others: [
+      {
+        slug:"",
+        name:"",
+        image: {desktop:""}
+      },
+      {
+        slug:"",
+        name:"",
+        image: {desktop:""}
+      },
+      {
+        slug:"",
+        name:"",
+        image: {desktop:""}
+      }
+    ]
+  }
+);
 
   // Fetch product data from API based on slug
   useEffect(() => {
@@ -33,7 +57,7 @@ const ProductPage = () => {
     .then((response) => {
       setData(response)
         setLoading(false);
-        response.map((item: any) => {
+        response.map((item: APIProduct) => {
           if (item.slug === slug) {
             setProduct(item);
           }

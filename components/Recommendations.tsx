@@ -3,9 +3,10 @@ import Image from 'next/image';
 import React from 'react'
 import { Button } from './Button';
 import Link from 'next/link';
+import { RecommendationType } from '../types';
 
 interface Props {
-    recommendations: any[];
+    recommendations: RecommendationType[];
 }
 
 // Returns recomendations container for product page
@@ -29,7 +30,7 @@ const Recommendations = ({ recommendations }: Props) => {
             <Box sx={{ display: "flex", 
             justifyContent: "space-between"
             }}>
-            {recommendations?.map((product) => {
+            {recommendations.map((product) => {
                 return (
                     <Box
                     key={product.slug}

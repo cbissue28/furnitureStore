@@ -2,9 +2,10 @@ import { Box, Container } from '@mui/material'
 import React from 'react'
 import CategoryItemDescription from './CategoryItemDescription'
 import CategoryItemImage from './CategoryItemImage'
+import { APIProduct } from '../types';
 
 interface Props {
-    item: any; // The individual product.
+    item: APIProduct; // The individual product.
 }
 
 // Displays all products on the category page. 

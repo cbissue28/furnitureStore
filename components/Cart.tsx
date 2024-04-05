@@ -88,7 +88,7 @@ const Cart = () => {
                             onClick={() => handleRemoveFromCart(product.id)}/>
 
                             <Image
-                            src={product.image}
+                            src={product.image.desktop.replace(".", "")}
                             width={50}
                             height={50}
                             alt="item" />

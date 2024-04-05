@@ -5,9 +5,10 @@ import React from 'react'
 interface Props {
     gallery: { 
         first: { desktop: string }; 
-        second: { desktop: string };
-        third: { desktop: string }}; 
-}
+        second: { desktop: string } ;
+        third: { desktop: string }
+      }; 
+} 
 
 // Returns gallery photos of products and handles null values
 const ProductGallery = ({ gallery }: Props) => {
