@@ -9,7 +9,7 @@ import Recommendations from '../components/Recommendations';
 import ProductDetails from '../components/ProductDetails';
 
 // Renders the details of a specific product including its features, gallery, and recommendations.
-const productPage = () => {
+const ProductPage = () => {
   const router = useRouter();
   const { slug } = router.query;
   
@@ -59,4 +59,4 @@ const productPage = () => {
   );
 };
 
-export default productPage;
+export default ProductPage;
