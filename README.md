@@ -22,6 +22,6 @@ yarn dev
 
 
 
-**You can view online at: https://cbissuefurniturestore.netlify.app**
+<h2>You can view online at: https://cbissuefurniturestore.netlify.app</h2>
 
 
